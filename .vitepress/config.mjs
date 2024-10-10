@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "NAS·U",
-  base: '/vitepress/',
+  base: '/',
   description: "More Share More Fun",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
