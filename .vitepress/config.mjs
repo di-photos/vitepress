@@ -149,8 +149,7 @@ export default defineConfig({
             text: '3.3-群辉',
             collapsed: true,
             items: [
-              { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },
-              { text: '3.3.02-外网访问Tailscale', link: '/System/Synology and Tailscale.md' },                                                                      
+              { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },                                                                    
             ]
           },                
                     
@@ -166,7 +165,9 @@ export default defineConfig({
           { text: '4.04-MoviePilot 安装与使用', link: '/Application/MoviePilot Installation and Use' },
           { text: '4.05-U思源笔记不能启动问题', link: '/Application/SiYuan Notes' },
           { text: '4.06-Docker 镜像无法下载问题', link: '/Application/Docker image downloaded' },
-          { text: '4.07-Docker 群晖激活ABB套件', link: '/Application/Active Backup for Business' },     
+          { text: '4.07-Docker 群晖激活ABB套件', link: '/Application/Active Backup for Business' },
+          { text: '4.08-虚拟组网几种方式', link: '/Application/Virtual Networke.md' }, 
+          { text: '4.09-虚拟组网之Tailscale', link: '/Application/Synology and Tailscale.md' },      
               
         ]
       }, 
