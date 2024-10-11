@@ -2,7 +2,7 @@
 
 ## 关于我
 
-![f774b4eb609dee5481278.png](https://img.nas-u.top/file/f774b4eb609dee5481278.png)
+![f774b4eb609dee5481278.png](https://pic.nas-u.top/f774b4eb609dee5481278.png)
 
 我是Nas·U （Nas友），构建本站意在于为了能够分享我在NAS硬件搭建、系统安装及配置、Docker及虚拟机应用经验，同时也希望能与广大的Nas爱好者进行交流。
 
