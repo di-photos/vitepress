@@ -16,7 +16,7 @@
 
 ### 四、参数
 
-![Nbox.jpg](https://nas-u.top/usr/uploads/2024/08/3677507406.png)
+![Nbox.jpg](https://pic.nas-u.top/3677507406.png)
 
-![Nbox_1170.jpg](https://nas-u.top/usr/uploads/2024/05/728125949.jpg)
+![Nbox_1170.jpg](https://pic.nas-u.top/728125949.jpg)
 

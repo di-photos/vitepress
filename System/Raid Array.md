@@ -2,7 +2,7 @@
 
 对于接触NAS的同学来说，如何选择磁盘的阵列模式是在前期要考虑的重点因素，如下表格是常见RAID阵列的主要特点：
 
-![Raid.jpg](https://nas-u.top/usr/uploads/2024/07/1761955246.jpg)
+![Raid.jpg](https://pic.nas-u.top/1761955246.jpg)
 *读性能：RAID阵列的数据读取性能*
 *写性能：RAID阵列的数据写入性能*
 *数据冗余：是否提供数据冗余保护*
@@ -37,7 +37,7 @@ RAID 0通过将数据分割成等大小的块（条带），并在多个硬盘�
 
 简单来说，假设有n块相同的硬盘，RAID0就是把你的数据分割成n个部分，同时对多个硬盘进行读写，这样理论上RAID0的顺序读写速度就是n倍于该硬盘的理论速度。
 
-![Raid 0.png](https://nas-u.top/usr/uploads/2024/07/3334629048.png)
+![Raid 0.png](https://pic.nas-u.top/3334629048.png)
 
 ### RAID 1（镜像）
 
@@ -45,7 +45,7 @@ RAID 1将数据在两个或多个硬盘上进行完全复制。这种策略提�
 
 简单来说，假设有n块相同的硬盘，RAID1就是把你的数据在n块硬盘上同时存储一份，这样，只要你的n块硬盘有一块还完好，就可以读取到完整无误的数据。
 
-![Raid 1.png](https://nas-u.top/usr/uploads/2024/07/1751686721.png)
+![Raid 1.png](https://pic.nas-u.top/1751686721.png)
 
 ### RAID 5（分布式奇偶校验）
 
@@ -53,19 +53,19 @@ RAID 5在多个硬盘上分布存储数据和奇偶校验信息。当某个硬�
 
 **RAID 5是我们目前在家用上用到的最多的RAID阵列**，毕竟大部分品牌NAS的家用级的产品均以四盘位机型为主流。RAID 5阵列可以最大程度上帮助用户在数据安全和存储容量上做好平衡。
 
-![Raid 5.png](https://nas-u.top/usr/uploads/2024/07/459319314.png)
+![Raid 5.png](https://pic.nas-u.top/459319314.png)
 
 ### RAID 6（双重奇偶校验）
 
 RAID 6在RAID 5的基础上增加一层额外的奇偶校验信息，从而提高数据的安全性和容错能力。RAID 6可以应对最多两块硬盘同时发生故障的情况。适用于对数据安全性要求极高的场景。
 
-![Raid 6.png](https://nas-u.top/usr/uploads/2024/07/4170854869.png)
+![Raid 6.png](https://pic.nas-u.top/4170854869.png)
 
 ### RAID 10（RAID 1+0，镜像+条带化）
 
 RAID 10将RAID 1和RAID 0的优点结合起来，即在提供数据镜像冗余的同时，还能实现数据的条带化分布，从而提高性能。RAID 10适用于对性能和数据安全性要求较高的场景。
 
-![Raid 10.png](https://nas-u.top/usr/uploads/2024/07/1548904275.png)
+![Raid 10.png](https://pic.nas-u.top/1548904275.png)
 
 在日常生活中，想要使用RAID10阵列也必须是四盘位起步，而且大部分NAS系统并不支持RAID10阵列，这个时候我们一般需要用到 **阵列卡** 来组成RAID10阵列。
 
@@ -74,11 +74,11 @@ RAID 10将RAID 1和RAID 0的优点结合起来，即在提供数据镜像冗余�
 Synology Hybrid RAID（SHR）是 群晖 的自动 RAID 管理系统，与RAID5 类似。但SHR 可让用户创建具有优化容量和性能的灵活存储解决方案。
 一般而言，传统 RAID 的存储创建基于存储池中最小的硬盘。如下图所示，如果传统 RAID 存储池中的最小硬盘为 500 GB，则存储池中的所有其他硬盘各自只能提供 500 GB 空间。因此，存储池最终有 2 TB 的可用存储和 4.5 TB 的浪费存储。
 
-![Classic RAID.png](https://nas-u.top/usr/uploads/2024/07/844037216.png)
+![Classic RAID.png](https://pic.nas-u.top/844037216.png)
 
 与传统 RAID 不同，SHR 将每个硬盘的存储空间分成较小的块，并创建额外的冗余存储。使用与之前相同的示例，SHR 能够将 4.5 TB 的不可用存储分成较小的可用块，并尽可能地增加每个硬盘的存储容量。
 
-![SHR.png](https://nas-u.top/usr/uploads/2024/07/3378301846.png)
+![SHR.png](https://pic.nas-u.top/3378301846.png)
 
 **建议：如果是 群晖系统 建议直接用其SHR阵列模式，在空间利用率上更高。**
 

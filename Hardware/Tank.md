@@ -13,9 +13,11 @@
 1. 硬盘笼位置在主板上方，增加内存、更换主板等操作都需要把硬盘笼拆下，略显麻烦。
 2. 只适配1U电源，可选性不多。
 
-### 四、参数![Tank.png](https://nas-u.top/usr/uploads/2024/07/952965733.png)
+### 四、参数
 
-![Tank2_1170.jpg](https://nas-u.top/usr/uploads/2024/05/1281681353.jpg)
+![Tank.png](https://pic.nas-u.top/952965733.png)
+
+![Tank2_1170.jpg](https://pic.nas-u.top/1281681353.jpg)
 
 
 

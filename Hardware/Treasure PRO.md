@@ -39,6 +39,6 @@
 
 ### 四、参数
 
-![Treasure PRO.png](https://nas-u.top/usr/uploads/2024/07/1996793867.png)
+![Treasure PRO.png](https://pic.nas-u.top/1996793867.png)
 
-![宝藏盒pro_1170.jpg](https://nas-u.top/usr/uploads/2024/05/794651254.jpg)
+![宝藏盒pro_1170.jpg](https://pic.nas-u.top/794651254.jpg)

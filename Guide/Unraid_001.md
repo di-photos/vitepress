@@ -19,21 +19,21 @@
   
   连接显示器，最后出现login字样时，前几行的IPV4地址即为该设备IP地址
   
-  ![2024-06-01 12 53 26 681  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/06/1268169739.png)
+  ![2024-06-01 12 53 26 681  Gemoo Snap.png](https://pic.nas-u.top/1268169739.png)
 
 3. 浏览器中输入该设备的IP，即可显示后台登录界面，如下图。输入默认用户名：**root** 密码: **Changeme001** （C为大写，其他为小写） 即可登录后台。
 
-   ![2024-06-01 12 59 13 056  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/06/2458548066.png)
+   ![2024-06-01 12 59 13 056  Gemoo Snap.png](https://pic.nas-u.top/2458548066.png)
 
 ​     **提醒**：若不使用黑群晖，可省略本节4~6步骤，直接到第二节。
 
 4. 点击 “主界面”标签，一般情况下会显示接入的硬盘信息，记下“未分配设备”中的“**IDENTIFICATION**”信息，直通给黑群晖用。
 
-   ![2024-06-01 13 05 29 233  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/06/1072824289.png)
+   ![2024-06-01 13 05 29 233  Gemoo Snap.png](https://pic.nas-u.top/1072824289.png)
 
 5. 右上角点关机，一般2分钟左右关机完毕。
 
-   ![2024-06-01 13 08 51 388  Gemoo Snap.png](https://nas-u.top/usr/uploads/2024/06/4229912516.png)
+   ![2024-06-01 13 08 51 388  Gemoo Snap.png](https://pic.nas-u.top/4229912516.png)
 
 6. 把剩余分配给unraid的硬盘插入盘位，重新开机进入unraid后台。
 

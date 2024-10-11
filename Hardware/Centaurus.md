@@ -18,9 +18,9 @@
 
 ### 四、参数
 
-![Centaurus.png](https://nas-u.top/usr/uploads/2024/07/672337774.png)
+![Centaurus.png](https://pic.nas-u.top/672337774.png)
 
 
 
-![半人马座_1170.jpg](https://nas-u.top/usr/uploads/2024/05/3084630286.jpg)
+![半人马座_1170.jpg](https://pic.nas-u.top/3084630286.jpg)
 

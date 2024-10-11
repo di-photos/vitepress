@@ -14,7 +14,7 @@
 
 Intel核显硬解码格式支持上有明显优势，而且Intel平台在系统和各方面服务兼容性相对AMD会比较好一点。
 
-![Intel vs AMD.png](https://nas-u.top/usr/uploads/2024/06/3282560661.png)
+![Intel vs AMD.png](https://pic.nas-u.top/3282560661.png)
 
 #### 四、低功耗还是高性能？
 
@@ -28,5 +28,5 @@ Nas所要求的性能相对桌面应用来说并不需要太高，6代之后的�
 
 Itx由于尺寸限制，扩展性差，而且相对来说价格会贵点。从扩展性及价格来考虑，首选是Matx或者ATX。而且市面上匹配Itx主板、Matx的机箱尺寸不会差太多，**除非是摆放空间有限，强烈建议上Matx、ATX主板**。
 
-![Mainboard.png](https://nas-u.top/usr/uploads/2024/06/3640295604.png)
+![Mainboard.png](https://pic.nas-u.top/3640295604.png)
 

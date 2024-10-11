@@ -151,13 +151,13 @@ rsync -avhzP --append -e 'ssh -p 567' /mnt/user/Test01/Bandicam-7.1.2.2451-x64-P
 
 在控制面板中开启 rsync 文件服务：
 
-![4084fca939c39a919dda0.png](https://img.nas-u.top/file/4084fca939c39a919dda0.png)
+![4084fca939c39a919dda0.png](https://pic.nas-u.top/4084fca939c39a919dda0.png)
 
 然后使用以下命令将群晖的 `Jianying6.01.rar` 文件传输到本地 Unraid 上的 `Test01` 文件夹：
 
 > 将本地文件传输到群晖也是一样的使用方式。
 
-![ab9ca0f237ecca1fa255b.png](https://img.nas-u.top/file/ab9ca0f237ecca1fa255b.png)
+![ab9ca0f237ecca1fa255b.png](https://pic.nas-u.top/ab9ca0f237ecca1fa255b.png)
 
 获取群晖上文件的详细存储地址，然后放到命令里面
 
@@ -173,14 +173,14 @@ rsync -avhzP --append user@10.10.10.4:/volume3/Temp/04 软件/Jianying/Jianying6
 
 对于文件的拷贝和转移，很多时候我们通过 WebUI 界面就可以实现简单的文件传输，例如你可以在 Unraid 上安装一个叫做 **Dynamix File Manager** 的插件之后即可实现 WebUI 页面的文件管理 —— 增删改查等：
 
-![f4a1b10a178ed7030f4b2.png](https://img.nas-u.top/file/f4a1b10a178ed7030f4b2.png)
+![f4a1b10a178ed7030f4b2.png](https://pic.nas-u.top/f4a1b10a178ed7030f4b2.png)
 
 安装好插件之后即可在“共享”界面,，点击目录最右侧的“查看”下部的按钮实现文件的增删改查
 
-![a32333c39764e55e9513e.png](https://img.nas-u.top/file/a32333c39764e55e9513e.png)
+![a32333c39764e55e9513e.png](https://pic.nas-u.top/a32333c39764e55e9513e.png)
 
-![ef046b2b09244fc15eaa6.png](https://img.nas-u.top/file/ef046b2b09244fc15eaa6.png)
+![ef046b2b09244fc15eaa6.png](https://pic.nas-u.top/ef046b2b09244fc15eaa6.png)
 
-![28b3123179ecdda454b97.png](https://img.nas-u.top/file/28b3123179ecdda454b97.png)
+![28b3123179ecdda454b97.png](https://pic.nas-u.top/28b3123179ecdda454b97.png)
 
 本质上，此插件也一样会在文件拷贝或者转移时根据实际情况去使用 `rsync` 命令，所以在 Unraid 上 `rsync` 是一个很通用的文件拷贝和同步工具，理解并且熟练的运用可以很方便的去管理文件。

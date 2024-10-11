@@ -9,31 +9,31 @@
 ### Tank（★★★★★）
 
 **特点**：性能均衡，包含CPU散热、机箱风扇，性价比突出
-![Tank2_1170.jpg](https://nas-u.top/usr/uploads/2024/05/1281681353.jpg)
+![Tank2_1170.jpg](https://pic.nas-u.top/1281681353.jpg)
 
 ### 宝藏盒Pro（★★★★☆）
 
 特点：颜值高，做工及散热效果高。
-![宝藏盒pro_1170.jpg](https://nas-u.top/usr/uploads/2024/05/794651254.jpg)
+![宝藏盒pro_1170.jpg](https://pic.nas-u.top/794651254.jpg)
 
 ### 半人马座（★★★★）
 
 特点：CNC铝板，做工细腻，整体颜值高，散热效果好。
-![半人马座_1170.jpg](https://nas-u.top/usr/uploads/2024/05/3084630286.jpg)
+![半人马座_1170.jpg](https://pic.nas-u.top/3084630286.jpg)
 
 ### 乔思伯N2（★★★）
 
 特点：小巧，做工不错，结构合理。
-![N2_1170.jpg](https://nas-u.top/usr/uploads/2024/05/83610935.jpg)
+![N2_1170.jpg](https://pic.nas-u.top/83610935.jpg)
 
 ### 迎广MS04（★★★）
 
 特点：专业大厂出品做工一流，结构合理、美观度高。
 
-![Ms04.jpg](https://nas-u.top/usr/uploads/2024/06/754964915.jpg)
+![Ms04.jpg](https://pic.nas-u.top/754964915.jpg)
 
 ### Nbox（★★）
 
 特点：用料足，做工不错，散热存在不足。
-![Nbox_1170.jpg](https://nas-u.top/usr/uploads/2024/05/728125949.jpg)
+![Nbox_1170.jpg](https://pic.nas-u.top/728125949.jpg)
 

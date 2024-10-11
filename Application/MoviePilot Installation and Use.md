@@ -4,7 +4,7 @@
 
 相信绝大多数搭建过NAS的人都有一个比较重要的使用方式，那就是使用Emby、Plex、Jellyfin或者Infuse来搭建自己的家庭影院。在此之前，我一直在使用NasTools和Plex来完成我的家庭影院的建设，它可以很好地满足自动观影的需求。当我在NasTools中订阅某个电视剧或某个电影时，我不再关心资源下载和其他内容，而是等待NasTools自动完成，如下图所示。
 
-![img](https://nas-u.top/usr/uploads/2024/06/551232181.jpg)
+![img](https://pic.nas-u.top/551232181.jpg)
 
 后来，由于一些众所周知的因素，nastool的作者不得不停止更新。虽然最终的版本仍然可以维持我的日常需求，但有时不得不面对一些问题，比如搜索资源的时间越来越长。但好消息是，原来的NasTools作者最近又开了一个新口子，根据NasTools代码简化的要求，开发了一种新的影视管理工具[MoviePilot] (https://github.com/jxxghp/moviepilot)，看到别人描述的新版软件运行速度有了相当大的提升。
 我也在这里记录了我的安装过程，在这里我使用Synology的容器管理器(以前的Docker管理器)，下面可以稍微修改一下以适用于其他Docker支持平台，这取决于你的发挥。
@@ -15,32 +15,32 @@
 
 打开 Synology 套件中心搜寻 Container Manager 并进行安装，安装过程根据相应提示即可。
 
-![img](https://nas-u.top/usr/uploads/2024/06/248802261.jpg)
+![img](https://pic.nas-u.top/248802261.jpg)
 
 ### 设置 Docker 工作目录
 
 打开 Synology 控制面板，选择共享文件夹，创建新的共享文件夹，文件夹名称根据需求自行选择，我这里就叫做 docker。
 
-![img](https://nas-u.top/usr/uploads/2024/06/3159203661.jpg)
+![img](https://pic.nas-u.top/3159203661.jpg)
 
 接下来，进入 Synology File Station，鼠标右键选择刚刚穿件的目录，进入 `属性` 菜单，选择 `权限` 菜单中的 `新增`,用户与组选项选择 `EveryOne` ，应用于全部文件夹，给予 `读取与写入` 权限，如下图:
 
-![img](https://nas-u.top/usr/uploads/2024/06/2917632130.jpg)
+![img](https://pic.nas-u.top/2917632130.jpg)
 
 点击应用后再选择 `应用到这个文件夹，子文件夹及文件`，如下图，点击保存后即可。
 
-![img](https://nas-u.top/usr/uploads/2024/06/589933778.jpg)
+![img](https://pic.nas-u.top/589933778.jpg)
 
 ### 设置项目运行目录开始创建项目
 
 在 File Station 内进入上一步设置的目录，新建文件夹，根据个人喜好选择命名即可，我这里将命名为 `theater`。
 设置完成后打开 Container Manager，点击左侧 `项目`，再选择 `新增`，根据自己喜好命名，路径选择为上一步设置的目录，来源选择 `创建 docker compose`，内容留空进入下一步即可，设置完成后如下图所示：
 
-![img](https://nas-u.top/usr/uploads/2024/06/1625359433.jpg)
+![img](https://pic.nas-u.top/1625359433.jpg)
 
 完成后点进 `theater` 进入项目，选择 `YAML` 配置，我们的准备工作便已完成。
 
-![img](https://nas-u.top/usr/uploads/2024/06/3776558236.jpg)
+![img](https://pic.nas-u.top/3776558236.jpg)
 
 我这里就继续沿用之前 NasTools 的配置文件了。
 
@@ -71,21 +71,21 @@ services:
 
 将上面的代码复制粘贴进入 Container Manager，点击保存后选择启动，会看到 Container Manager 正在拉取镜像，如下图：
 
-![img](https://nas-u.top/usr/uploads/2024/06/1906151488.jpg)
+![img](https://pic.nas-u.top/1906151488.jpg)
 
 等这里的代码结束运行后，在浏览器输入 `http://${Synology IP}:8088`，如果看到如下界面，则表示部署成功：
 
-![CleanShot 2023-08-19 at 21.25.22](https://nas-u.top/usr/uploads/2024/06/2371706953.png)
+![CleanShot 2023-08-19 at 21.25.22](https://pic.nas-u.top/2371706953.png)
 
 #### 浏览器插件安装
 
 进入 [CookieCloud Release](https://github.com/easychen/CookieCloud/releases?ref=blog.digitalimmigrants.org) 下载最新的浏览器插件，并进行解压保存。进入 Chrome 插件设置：`chrome://extensions/`，打开开发者模式，选择 `加载已解压的扩展程序`，选择刚刚的解压目录，点击选择进行安装，如下图所示：
 
-![CleanShot 2023-08-19 at 21.30.37](https://nas-u.top/usr/uploads/2024/06/2410004911.png)
+![CleanShot 2023-08-19 at 21.30.37](https://pic.nas-u.top/2410004911.png)
 
 安装完成后，我们可以打开 CookieCloud 插件进行配置，具体的教程可以移步 [官方教程](https://github.com/easychen/CookieCloud?ref=blog.digitalimmigrants.org#官方教程) ，下面以我的配置进行示例：
 
-![CleanShot 2023-08-19 at 21.40.37](https://nas-u.top/usr/uploads/2024/06/3287402039.png)
+![CleanShot 2023-08-19 at 21.40.37](https://pic.nas-u.top/3287402039.png)
 
 设置完成后点击下方 `保存` 与 `测试` 确保这里配置正确。到此为止，CookieCloud 配置完成。
 
@@ -97,11 +97,11 @@ services:
 
 第一步我们需要在之前设置的 MovePilot 项目的运行目录内新建一个名为 `qbittorrent` 的目录，这里的目的是将 QBitTorrent 的部分文件映射出来，以便我们进行后续操作，如忘记密码的修改或者 docker 迁移。如下图所示：
 
-![CleanShot 2023-08-19 at 21.51.42](https://nas-u.top/usr/uploads/2024/06/658560687.png)
+![CleanShot 2023-08-19 at 21.51.42](https://pic.nas-u.top/658560687.png)
 
 同时，我们需要新建 QBitTorrent 的下载目录，以我个人的设置为例，如下：
 
-![CleanShot 2023-08-19 at 21.55.28](https://nas-u.top/usr/uploads/2024/06/1348170087.png)
+![CleanShot 2023-08-19 at 21.55.28](https://pic.nas-u.top/1348170087.png)
 
 我这里设置为 `media/movies(seriese)/raw` 存储下载的原始媒体文件，`media/movies(seriese)/clean` 存储经过刮削的媒体文件，`downloads` 目录存储其他的下载内容。
 以上内容准备后，我们便可以开始部署，`docker compose` 文件如下，你可以根据你的需求进行修改，以下仅为示例：
@@ -128,17 +128,17 @@ services:
 
 我们再次进入 Container Manager，选择 `停止` 项目，并将上文的代码复制粘贴，随后再次点击启动，如下图：
 
-![CleanShot 2023-08-19 at 22.01.02](https://nas-u.top/usr/uploads/2024/06/2629297845.png)
+![CleanShot 2023-08-19 at 22.01.02](https://pic.nas-u.top/2629297845.png)
 
 等待弹出窗口内代码运行完成后，浏览器内输入 `http:${Synology IP}:8999` 便可进入 QBitTorrent WEBUI，如下图：
 
-![img](https://nas-u.top/usr/uploads/2024/06/3006567014.jpg)
+![img](https://pic.nas-u.top/3006567014.jpg)
 
 #### QBitTorrent WEBUI 配置
 
 上一步后我们需要输入用户名（默认 admin）与密码（默认 adminadmin），便可以进入界面，点击设置图标便可以进入设置，各位根据自己的需求自行调参，可以参考 [qBittorrent 参数详细设置教程](https://blog.17lai.site/posts/f6b32521/?ref=blog.digitalimmigrants.org)。
 
-![CleanShot 2023-08-19 at 22.11.59](https://nas-u.top/usr/uploads/2024/06/3984575137.png)
+![CleanShot 2023-08-19 at 22.11.59](https://pic.nas-u.top/3984575137.png)
 
 ### 媒体服务器安装（以 Plex 为例）
 
@@ -187,7 +187,7 @@ services:
 
 与上一步相同的，我们需要新建一个目录用于存储 MoviePilot 配置，如图所示：
 
-![CleanShot 2023-08-20 at 02.22.39](https://nas-u.top/usr/uploads/2024/06/288371442.png)
+![CleanShot 2023-08-20 at 02.22.39](https://pic.nas-u.top/288371442.png)
 
 然后我们便要开始稍显繁琐的 Docker 配置，我们跟随官方文档，开始一步步的编写 `docker compose` 文件，首先开头还是老几样：
 
@@ -220,7 +220,7 @@ services:
 
 首先我们要获取 Synology 用户的 `uid` 与 `gid`，这里可以通过 ssh 到 Synology 输入命令来获取，第一步需要打开 Synology 的 ssh 权限，如图所示：
 
-![CleanShot 2023-08-20 at 02.37.02](https://nas-u.top/usr/uploads/2024/06/1065484734.png)
+![CleanShot 2023-08-20 at 02.37.02](https://pic.nas-u.top/1065484734.png)
 
 接下来我们可以使用如下命令获取相关内容：
 
@@ -327,7 +327,7 @@ uid=1026(username) gid=100(users) groups=100(users),101(administrators)
 
 以 Plex 为例，首先我们需要获取 `X-Plex-Token`，在浏览器中登陆 Plex，`F12` 进入开发者模式，选择 `Network`，搜索栏输入关键词进行搜寻，如下图所示：
 
-![CleanShot 2023-08-20 at 03.21.19](https://nas-u.top/usr/uploads/2024/06/592152975.png)
+![CleanShot 2023-08-20 at 03.21.19](https://pic.nas-u.top/592152975.png)
 
 获取后进行复制粘贴即可。
 
@@ -345,7 +345,7 @@ uid=1026(username) gid=100(users) groups=100(users),101(administrators)
 因为某些原因，MoviePilot 首先需要你时某一些 PT 站点的会员，才可进行使用，尽管这样提高了本项目的使用门槛，但这样可以使得本项目更加长久。详细内容可以参考 [Movie Pilot 用户认证](https://github.com/jxxghp/MoviePilot?ref=blog.digitalimmigrants.org#2-用户认证)。
 这里以 `Audiences` 进行举例，我们首先需要获取 `uid` 与 `passkey`，登陆网站后，点击控制面板，即可获得，如下图所示：
 
-![CleanShot 2023-08-20 at 03.28.18](https://nas-u.top/usr/uploads/2024/06/16619216.png)
+![CleanShot 2023-08-20 at 03.28.18](https://pic.nas-u.top/16619216.png)
 
 获取后进行复制粘贴即可。
 
@@ -365,10 +365,10 @@ uid=1026(username) gid=100(users) groups=100(users),101(administrators)
 
 打开 `http://${Synology IP}:3003`，如果出现登录界面，即表明安装成功，如下图所示：
 
-![img](https://nas-u.top/usr/uploads/2024/06/1675228077.jpg)
+![img](https://pic.nas-u.top/1675228077.jpg)
 
 输入上文中设置的账号密码登录后，即可进入主界面，如下图所示：
 
-![img](https://nas-u.top/usr/uploads/2024/06/1710848352.jpg)
+![img](https://pic.nas-u.top/1710848352.jpg)
 
-接下来便可以由你来进行探索这里的设定了，更加详细的关于 WEBUI 内的配置也会在日后在本文内进行更新。
+接下来更加详细的关于 WEBUI 内的配置就让你来进行探索了。

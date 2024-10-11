@@ -4,7 +4,7 @@ DIY NAS作为小众需求，在以前基本上没引起太多的厂家关注，�
 
 其中 N5105、N100作为低功耗平台的典型代表，在市面主流成品NAS都得以广泛应用。其中N100的TDP仅为6W，相对消费级i3-12100的60W低了不少。
 
-![86d7b6d6881635bcc1e36.png](https://img.nas-u.top/file/86d7b6d6881635bcc1e36.png)
+![86d7b6d6881635bcc1e36.png](https://pic.nas-u.top/86d7b6d6881635bcc1e36.png)
 
 
 
@@ -22,7 +22,7 @@ DIY NAS作为小众需求，在以前基本上没引起太多的厂家关注，�
 
 
 
-![N100.png](https://nas-u.top/usr/uploads/2024/06/3141915879.png)
+![N100.png](https://pic.nas-u.top/3141915879.png)
 
 
 
