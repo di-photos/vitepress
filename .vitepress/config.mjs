@@ -166,7 +166,7 @@ export default defineConfig({
           { text: '4.05-U思源笔记不能启动问题', link: '/Application/SiYuan Notes' },
           { text: '4.06-Docker 镜像无法下载问题', link: '/Application/Docker image downloaded' },
           { text: '4.07-Docker 群晖激活ABB套件', link: '/Application/Active Backup for Business' },
-          { text: '4.08-虚拟组网几种方式', link: '/Application/Virtual Networke.md' }, 
+          { text: '4.08-虚拟组网几种方式', link: '/Application/Virtual Network.md' }, 
           { text: '4.09-虚拟组网之Tailscale', link: '/Application/Synology and Tailscale.md' },      
               
         ]
