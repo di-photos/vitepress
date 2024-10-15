@@ -24,26 +24,26 @@
 
 2. 注册完成后，打开 Tailscale 官方网站 [Tailscale.com](https://Tailscale.com)，点击 “Get started” 。
 
-   ![](https://pic.nas-u.top/Nasu_2024-10-09_14-25-03.png)
+   ![](https://webp.nas-u.top/Nasu_2024-10-09_14-25-03.png)
 
 3. 选择中间的微软账号登录，使用注册好的 outlook 邮箱进行登录。
 
-   ![](https://pic.nas-u.top/Nasu_2024-10-09_14-44-01.png)
+   ![](https://webp.nas-u.top/Nasu_2024-10-09_14-44-01.png)
 
 4. 登录到 tailscale 后，未添加设备的情况下，会看到没有任何设备列表。（截图显示我的账号，前期已经添加了3个设备）。
 
-   ![](https://pic.nas-u.top/Nasu_2024-10-09_14-48-38.png)
+   ![](https://webp.nas-u.top/Nasu_2024-10-09_14-48-38.png)
 
 
 ### （二）群晖 NAS 安装 Tailscale 套件
 
 1. 进入群晖后台，打开套件中心，在所有套件栏搜索“Tailscale”，按提示进行安装，一路点击 “下一步” 即可安装完成。
 
-   ![](https://pic.nas-u.top/Nasu_2024-10-09_14-54-54.png)
+   ![](https://webp.nas-u.top/Nasu_2024-10-09_14-54-54.png)
 
 2. 套件中心自带的不一定为最新版本，若想安装最新版本，请从 [**该地址**](https://pkgs.tailscale.com/stable/#spks)下载对应的最新版本。黑群晖一般为X86平台，选择DSM6 / DSM7的第一个链接，即 **64-bit x86(amd64)** 版本。
 
-   ![](https://pic.nas-u.top/Nasu_2024-10-09_16-20-27.png)
+   ![](https://webp.nas-u.top/Nasu_2024-10-09_16-20-27.png)
 
 3. 在群辉后台套件中心右侧，选择”手动安装“，按提示一步步操作即可。
 
@@ -51,17 +51,17 @@
 
 5. 登录后可以看到有个设备名称已经显示出来，如截图显示的home就是 NAS 的设备名称。后面的 100 开头的 IP 地址即是 NAS 主机的虚拟网络的 IP。但此时还不能直接进行访问，需要访问 nas 主机的电脑/手机安装 tailscale 客户端。
 
-   ![](https://pic.nas-u.top/Nasu_2024-10-09_16-17-38.png)
+   ![](https://webp.nas-u.top/Nasu_2024-10-09_16-17-38.png)
 
 ### （三）电脑端安装 Tailscale 软件
 
 1. 在 tailscale 的官网有各类平台的客户端下载，如电脑是 win 系统，可下载 windows 软件安装。
 
-   ![](https://pic.nas-u.top/Nasu_241011094729.png)
+   ![](https://webp.nas-u.top/Nasu_241011094729.png)
 
 2. 下载 windows 客户端安装后提示登录，登录后可以看到本机名称及虚拟 IP 地址。这时可以复制 nas 的虚拟 ip 到浏览器，并加5000端口就可以直接访问 nas 主机。
 
-   ![](https://pic.nas-u.top/Nasu_241011100008.png)
+   ![](https://webp.nas-u.top/Nasu_241011100008.png)
 
 ### （四）手机端访问 NAS 主机
 
@@ -81,7 +81,7 @@
 
 2. 登录群晖后台，按下列标识步骤打开群晖的SSH功能（建议日常使用关闭，避免不必要的隐患）。
 
-   ![](https://pic.nas-u.top/Nasu_241011101224.png)
+   ![](https://webp.nas-u.top/Nasu_241011101224.png)
 
 3. 用 SSH 客户端（如FinalShell）登录到群晖，在命令行中输入
 
@@ -93,23 +93,23 @@
 
 4. 进入Tailscale管理控制台，找到安装了 Tailscale 的群晖主机。
 
-   ![](https://pic.nas-u.top/Nasu_241011102912.png)
+   ![](https://webp.nas-u.top/Nasu_241011102912.png)
 
    
 
 5. 点击右侧三个小圆点，并进入Edit route settings。
 
-   ![](https://pic.nas-u.top/Nasu_241011102959.png)
+   ![](https://webp.nas-u.top/Nasu_241011102959.png)
 
 6. 可以看到我们命令行中设置的局域网地址段，勾选并保存确认。
 
-   ![](https://pic.nas-u.top/Nasu_241011105428.png)
+   ![](https://webp.nas-u.top/Nasu_241011105428.png)
 
 7. 这是在其他设备上，就可以直接输入局域网中的设备 IP 进行访问了。比如在手机或公司的办公机上输入 10.10.10.10 就可以访问家里的设备（10.10.10.10为我家中Unraid的IP，以你实际情况为准）。
 
 8. 提醒：安全机制考虑，Tailscale的Key过一段时间会过期，为了能长期使用，建议按如下操作将Key过期功能关闭。
 
-   ![](https://pic.nas-u.top/Nasu_241011113104.png)
+   ![](https://webp.nas-u.top/Nasu_241011113104.png)
 
 ### （二）出口节点设置
 
@@ -126,11 +126,11 @@
 
    所以**不需要再执行**了，只要在进控制台启用即可。
 
-   ![](https://pic.nas-u.top/Nasu_241011110820.png)
+   ![](https://webp.nas-u.top/Nasu_241011110820.png)
 
    
 
-   ![](https://pic.nas-u.top/Nasu_241011111004.png)
+   ![](https://webp.nas-u.top/Nasu_241011111004.png)
 
 
 

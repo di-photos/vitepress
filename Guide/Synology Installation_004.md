@@ -8,8 +8,8 @@
 
 因为是在局域网内部访问，所以可以用http协议访问。点击桌面控制面板，选择“登录门户”，取消勾选“自动将……”点保存。后续就可以用http://设备IP：5000 就不会有安全提示了（提醒：用5000端口，前面的http是没有“s”的）
 
-![2024-05-31 13 59 57 393  Gemoo Snap.png](https://pic.nas-u.top/1547127057.png)
+![2024-05-31 13 59 57 393  Gemoo Snap.png](https://webp.nas-u.top/1547127057.png)
 
-![2024-05-31 14 01 35 399  Gemoo Snap.png](https://pic.nas-u.top/554679194.png)
+![2024-05-31 14 01 35 399  Gemoo Snap.png](https://webp.nas-u.top/554679194.png)
 
-![2024-05-31 14 03 45 682  Gemoo Snap.png](https://pic.nas-u.top/783911300.png)
+![2024-05-31 14 03 45 682  Gemoo Snap.png](https://webp.nas-u.top/783911300.png)
