@@ -149,7 +149,7 @@ export default defineConfig({
             text: '3.3-群晖',
             collapsed: true,
             items: [
-              { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },  
+              { text: '3.3.01-群晖重置密码', link: '/System/Reset Password' },  
               { text: '3.3.02-群晖挂载NTFS硬盘', link: '/System/DSM Mount NTFS' },                                                                    
             ]
           },                
