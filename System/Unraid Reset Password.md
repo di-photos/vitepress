@@ -5,17 +5,20 @@
 ##  1-操作过程
 
 1. 强行关闭服务器（非紧要关头情况下不建议）。
+
 2. 将引导U盘拔下，插入其他可用电脑。
 
 3. 打开引导U盘  **文件夹config**并删除文件“ **shadow**”、“ **smbpasswd**” 、“ **passwd**”三个文件。
 
-   ![9de3d849f4caee19c17bb.png](https://pic.nas-u.top/9de3d849f4caee19c17bb.png)
+   ![](https://webp.nas-u.top/NasU_241029112232.png)
 
 4. 包括root用户在内的**所有用户**密码重置为空密码。
 
 5. 用该引导盘重新启动Unraid，空密码进入后台后在用户选项卡重设密码即可。
 
-   ![8ac86c32ff124af641e4f.png](https://pic.nas-u.top/8ac86c32ff124af641e4f.png)
+   ![](https://webp.nas-u.top/NasU_241029112958.png)
+
+   ![](https://webp.nas-u.top/NasU_241029113039.png)
 
 ## 2-提醒
 

@@ -146,7 +146,7 @@ export default defineConfig({
             ]
           }, 
           {
-            text: '3.3-群辉',
+            text: '3.3-群晖',
             collapsed: true,
             items: [
               { text: '3.3.01-黑群密码找回', link: '/System/Reset Password' },  
