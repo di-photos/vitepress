@@ -134,7 +134,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '3.1.01-各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
-              { text: '3.1.02-常见的RAID阵列', link: '/System/Raid Array' },                                                                         
+              { text: '3.1.02-浅谈家庭数据备份', link: '/System/Data Backup' },
+              { text: '3.1.03-常见的RAID阵列', link: '/System/Raid Array' },                                                                         
             ]
           }, 
           {
