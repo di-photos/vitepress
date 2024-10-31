@@ -143,7 +143,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '3.2.01-文件传输Rsync命令', link: '/System/Rsync Command' }, 
-              { text: '3.2.02-Unraid重置密码', link: '/System/Unraid Reset Password' },                                                                                      
+              { text: '3.2.02-Unraid重置密码', link: '/System/Unraid Reset Password' },  
+              { text: '3.2.03-Unraid挂载SMB/NFS引发无法关机的解决思路', link: '/System/Unraid Mount SMB_NFS' },                                                                                     
             ]
           }, 
           {
