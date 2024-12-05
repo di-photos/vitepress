@@ -103,7 +103,7 @@ export default defineConfig({
               { text: '2.1.05-创建共享文件夹', link: '/Guide/Synology Installation_005' },
               { text: '2.1.06-新增用户', link: '/Guide/Synology Installation_006' }, 
               { text: '2.1.07-常用套件', link: '/Guide/Synology Installation_007' }, 
-              { text: '2.1.08-增加硬盘及更改存储空间', link: '/Guide/Synology Installation_008' },                                                                           
+              { text: '2.1.08-加硬盘及改存储空间', link: '/Guide/Synology Installation_008' },                                                                           
             ]
           }, 
           {
