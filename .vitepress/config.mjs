@@ -136,7 +136,8 @@ export default defineConfig({
             items: [
               { text: '3.1.01-各Nas系统的分析对比', link: '/System/Comparative analysis of Nas systems' },
               { text: '3.1.02-浅谈家庭数据备份', link: '/System/Data Backup' },
-              { text: '3.1.03-常见的RAID阵列', link: '/System/Raid Array' },                                                                         
+              { text: '3.1.03-常见的RAID阵列', link: '/System/Raid Array' },    
+              { text: '3.1.04-PVE的核显物理直通', link: '/System/Physical IGP Use 001' },                                                                        
             ]
           }, 
           {
